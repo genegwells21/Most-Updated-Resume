@@ -1,135 +1,267 @@
 <!DOCTYPE html>
+
 <html>
+
  <meta charset="UTF-8">
+
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
 <style>
+
 * {
+
   box-sizing: border-box;
+
 }
+
+
 
 body {
+
   background-color: #f1f1f1;
+
   padding: 20px;
+
   font-family: Arial;
+
 }
+
+
 
 /* Center website */
+
 .main {
+
   max-width: 1000px;
+
   margin: auto;
+
 }
+
+
 
 h1 {
+
   font-size: 50px;
+
   word-break: break-all;
+
 }
+
+
 
 .row {
+
   margin: 8px -16px;
+
 }
+
+
 
 /* Add padding BETWEEN each column (if you want) */
+
 .row,
+
 .row > .column {
+
   padding: 8px;
+
 }
+
+
 
 /* Create four equal columns that floats next to each other */
+
 .column {
+
   float: left;
+
   width: 25%;
+
 }
+
+
 
 /* Clear floats after rows */ 
+
 .row:after {
+
   content: "";
+
   display: table;
+
   clear: both;
+
 }
+
+
 
 /* Content */
+
 .content {
+
   background-color: white;
+
   padding: 10px;
+
 }
+
 ul {
+
   list-style-type: none;
+
   margin: 0;
+
   padding: 0;
+
   overflow: hidden;
+
   background-color: #333;
+
 }
+
+
 
 li {
+
   float: left;
+
 }
+
+
 
 li a {
+
   display: block;
+
   color: white;
+
   text-align: center;
+
   padding: 14px 16px;
+
   text-decoration: none;
+
 }
+
+
 
 li a:hover {
+
   background-color: #111;
+
 }
+
 .fa {
+
   padding: 20px;
+
   font-size: 30px;
+
   width: 70px;
+
   text-align: center;
+
   text-decoration: none;
+
   margin: 5px 2px;
+
 }
+
+
 
 .fa:hover {
+
     opacity: 0.7;
+
 }
+
   .fa-instagram {
+
   background: #125688;
+
   color: white;
+
 }
+
 .fa-linkedin {
+
   background: #007bb5;
+
   color: white;
+
 }
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 900px) {
+
   .column {
+
     width: 50%;
+
   }
+
   
+
 }
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
+
   .column {
+
     width: 100%;
+
   }
+
 }
+
 </style>
+
 <body>
+
 <div class="main">
+
 <ul>
+
   <li><a class="active" href="#home">Home</a></li>
+
   <li><a href="#news">News</a></li>
+
   <li><a href="#contact">Contact</a></li>
+
   <li><a href="#about">About</a></li>
+
 </ul>
 
+
+
 <hr>
+
 <h2>My name is Eugene Wells</h2>
+
 <p>Welcome to my Portfolio!</p>
+
  <a href="https://github.com/genegwells21"> My GitHub Profile</a>
 
 
 
+
+
+
+
         <br>
+
+
+
+
 
 
 
@@ -137,46 +269,92 @@ li a:hover {
 
 
 
+
+
+
+
         <br>
+
+
+
+
 
 
 
         <a href="file:///C:/Users/Gene%20Wells/AppData/Local/Packages/Microsoft.MicrosoftEdge_8wekyb3d8bbwe/TempState/Downloads/Birva%20assisted%20New%20Resume2_26%20(1).pdf">My Resume</a>
 
+
+
 <hr>
 
 
+
+
+
 <!-- Portfolio Gallery Grid -->
+
 <div class="row">
+
   <div class="column">
+
     <div class="content">
+
       <img src="mountains.jpg" alt="WORK 1" style="width:100%">
+
       <h3>Unload</h3>
+
       <p>This is an e-commerce store</p>
+
     </div>
+
   </div>
+
   <div class="column">
+
     <div class="content">
+
       <img src="lights.jpg" alt="Work 2" style="width:100%">
+
       <h3>ZipCrunch</h3>
+
       <p>This is a restaurant finder</p>
+
     </div>
+
   </div>
+
   <div class="column">
+
     <div class="content">
+
       <img src="nature.jpg" alt="Work 3" style="width:100%">
+
       <h3> Crystal Collector</h3>
+
       <p>Click on the plentiful crystals to match the number given! </p>
+
     </div>
+
   </div>
+
  
+
   
 
+
+
 <!-- END MAIN -->
+
 </div>
+
  <footer>
-  <a href="https://www.linkedin.com/in/gene-wells-a017ab14a/" class="fa fa-linkedin"></a>
+
+  <a href="#" class="fa fa-linkedin"></a>
+
   <a href="#" class="fa fa-instagram"></a>
+
   </footer>
+
 </body>
+
 </html>
