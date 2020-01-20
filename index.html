@@ -54,6 +54,48 @@ header nav {
 float:right;
 margin-top: 10px;
 }
+header .highlight, header .current a  {
+  color: #e8491d;
+  font-weight: bold;
+  } 
+  header a:hover{
+    color: #cccccc;
+    font-weightL bold;
+  }
+  #showcase {
+    min-height: 400px;
+    background:url('../img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+    
+  }
+ #showcase h1 {
+   margin-top: 100px;
+   font-size: 55px;
+   margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 20pxl
+  }
+  
+  #newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+  }
+  #newsletter  h1   {
+    float: left;
+  }
+  #newsletter form  {
+    float: right;
+    margin-top: 15px;
+  }
+  #newsletter input [type="email"]  {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  
   
   </style>
   
@@ -64,12 +106,12 @@ margin-top: 10px;
   
   <div class="container">
 <div id="branding">
-<h1> Gene Wells </h1>
+  <h1><span class="hightlight"> Gene Wells</span> Web Development </h1>
 </div>
 <nav>
 <ul>
-<li> <a href="./index.html">Home</a> </li>
-<li> <a href="./about.html"> About </a> </li>
+<li class="current"> <a href="./index.html">Home</a> </li>
+<li <a href="./about.html"> About </a> </li>
 <li> <a href="./contact.html"> Contact </a> </li>
 </ul>
 </nav>
